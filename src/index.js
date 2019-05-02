@@ -173,7 +173,6 @@ SatelliteVisualisation.propTypes = {
     shape({
       angle: number.isRequired,
       id: string.isRequired,
-      name: string.isRequired,
       type: any.isRequired
     })
   ).isRequired,
