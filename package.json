@@ -1,0 +1,27 @@
+{
+  "name": "@esveo/satellite-visualisation",
+  "version": "1.0.0",
+  "description": "Visualisation Component for satellites. Developed for the React Basics Training",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/esveo/satellite-visualisation",
+  "private": false,
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "prop-types": "^15.7.2",
+    "three": "^0.104.0"
+  },
+  "scripts": {
+    "build": "babel ./src -d ./dist",
+    "watch": "babel --watch ./src -d ./dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
